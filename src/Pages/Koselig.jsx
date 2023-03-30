@@ -8,7 +8,7 @@ import Ebike from "../assets/ebike.webp";
 import Workout from "../assets/workout-prev.webp";
 import KoseligPc from "../assets/koseligmonitor.webp";
 import KoseligAccomodation from "../assets/koseligaddmode.webp";
-import KoseligPreview from "../assets/Koseligpreview.webp";
+import KoseligPreview from "../assets/koseligpreview.webp";
 import KoseligDestinations from "../assets/koseligdestinations.webp";
 import KoseligDescription from "../assets/koseligdescription.webp";
 import KoseligGallery from "../assets/koseliggallery.webp";
