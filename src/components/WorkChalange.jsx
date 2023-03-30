@@ -15,11 +15,11 @@ const WorkChalange = ({ chalange, goal, solution }) => {
           <h2 className="3xl:text-5xl text-3xl xl:text-2xl ">Chalange</h2>
           <p className="3xl:text-3xl text-2xl xl:text-xl sm:text-[1rem]">{chalange}</p>
         </div>
-        <div className="sticky top-24 bg-yellow-600 rounded-xl min-h-h-[20vh] mt-2 px-5 py-5">
+        <div className="sticky top-24 bg-yellow-600 rounded-xl min-h-h-[20vh] mt-2 px-5 py-5 sm:top-10">
           <h2 className="3xl:text-5xl text-3xl xl:text-2xl ">Goal</h2>
           <p className="3xl:text-3xl text-2xl xl:text-xl sm:text-[1rem]">{goal}</p>
         </div>
-        <div className=" sticky top-30 bg-purple-600 rounded-xl min-h-h-[20vh] mt-2 px-5 py-5">
+        <div className=" sticky top-30 bg-purple-600 rounded-xl min-h-h-[20vh] mt-2 px-5 py-5 sm:top-10">
           <h2 className="3xl:text-5xl text-3xl xl:text-2xl ">Solution</h2>
           <p className="3xl:text-3xl text-2xl xl:text-xl sm:text-[1rem]">{solution}</p>
         </div>
