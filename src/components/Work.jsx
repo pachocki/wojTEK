@@ -32,23 +32,10 @@ const Work = () => {
         scrollTrigger: {
           trigger: ".--mask",
           pin: true,
+          start: "top top",
           end: "center bottom",
           scrub: 1,
           pinSpacing: false,
-
-          start: () => {
-            if (window.matchMedia("(max-width: 640px)").matches) {
-              return "top top";
-            } else if (window.matchMedia("(max-width: 770px)").matches) {
-              return "top +=2%";
-            } else if (window.matchMedia("(max-width: 1024px)").matches) {
-              return "top +=4%";
-            } else if (window.matchMedia("(max-width: 1450px)").matches) {
-              return "top top";
-            } else {
-              return "top top";
-            }
-          },
         },
       })
       .to(project, {
