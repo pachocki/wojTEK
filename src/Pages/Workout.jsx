@@ -5,7 +5,7 @@ import HeroWork from "../components/HeroWork";
 import WorkChalange from "../components/WorkChalange";
 import Gallery from "../components/Gallery";
 import Ebike from "../assets/ebike.webp";
-import Playwell from "../assets/playwell-main.webp";
+import Playwell from "../assets/playwellmain.webp";
 import WorkoutLanding from "../assets/workoutlanding.webp";
 import WorkoutPricing from "../assets/workoutprices.webp";
 import WorkoutExercises from "../assets/workoutexercises.webp";

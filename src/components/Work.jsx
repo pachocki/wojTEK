@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import SectionTitle from "./SectionTitle";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import Playwell from "../assets/playwell-monitor.webp";
+import Playwell from "../assets/playwellmonitor.webp";
 import Koselig from "../assets/koseligmonitor.webp";
 import Ding from "../assets/ding-laptop.webp";
 import Ebike from "../assets/ebike-laptop.webp";

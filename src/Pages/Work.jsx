@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
 import WorkCard from "../components/WorkCard";
-import Playwell from "../assets/playwell-monitor.webp";
+import Playwell from "../assets/playwellmonitor.webp";
 import Koselig from "../assets/koseligmonitor.webp";
 import Ding from "../assets/ding-laptop.webp";
 import Ebike from "../assets/ebike-laptop.webp";

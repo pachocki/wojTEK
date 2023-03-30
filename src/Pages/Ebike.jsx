@@ -4,7 +4,7 @@ import HeroWork from "../components/HeroWork";
 
 import WorkChalange from "../components/WorkChalange";
 import Gallery from "../components/Gallery";
-import Playwell from "../assets/playwell-main.webp";
+import Playwell from "../assets/playwellmain.webp";
 import Workout from "../assets/workout-prev.webp";
 import EbikeLanding from "../assets/ebike.webp";
 import EbikeAbout from "../assets/ebikeabout.webp";
