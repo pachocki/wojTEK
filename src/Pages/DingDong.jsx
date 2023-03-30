@@ -7,7 +7,7 @@ import Gallery from "../components/Gallery";
 import Ebike from "../assets/ebike.webp";
 import Workout from "../assets/workout-prev.webp";
 import DingLaptop from "../assets/ding-laptop.webp";
-import DingLanding from "../assets/Dinglanding.webp";
+import DingLanding from "../assets/dinglanding.webp";
 import  DingMobile from "../assets/dingmobile.webp"
 import DingProfile from "../assets/dingprofile.webp"
 
