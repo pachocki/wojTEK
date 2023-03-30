@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../assets/playwell-monitor.webp";
+import Hero from "../assets/playwellmonitor.webp";
 import HeroWork from "../components/HeroWork";
 
 import WorkChalange from "../components/WorkChalange";
