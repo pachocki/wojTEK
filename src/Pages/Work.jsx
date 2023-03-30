@@ -5,7 +5,7 @@ import Playwell from "../assets/playwellonmonitor.webp";
 import Koselig from "../assets/koseligmonitor.webp";
 import Ding from "../assets/ding-laptop.webp";
 import Ebike from "../assets/ebike-laptop.webp";
-import Workout from "../assets/workout.webp";
+import Workout from "../assets/workoutonmonitor.webp";
 import Archtek from "../assets/archtek-mobile.webp";
 import Modern from "../assets/modern.png";
 import Inspace from "../assets/inspace.png";
