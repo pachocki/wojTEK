@@ -74,7 +74,7 @@ const Work = () => {
   return (
     <div className="relative h-full">
       <SectionTitle title="Jump to my Work" />
-      <div className="bg-white/20 relative 3xl:h-[180vh] h-[260vh] xl:h-[220vh] sm:h-[360vh]">
+      <div className="bg-white/20 relative 3xl:h-[180vh] h-[260vh] xl:h-[220vh] sm:h-[370vh] xs:h-[340vh]">
         <div className="section --mask min-h-screen z-20">
           <svg
             id="svg-mask"
