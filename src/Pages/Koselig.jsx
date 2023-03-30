@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../assets/koselig-laptop.webp";
+import Hero from "../assets/koseliglaptop.webp";
 import HeroWork from "../components/HeroWork";
 
 import WorkChalange from "../components/WorkChalange";
