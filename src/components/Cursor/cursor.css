@@ -1,0 +1,42 @@
+.dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  z-index: 999;
+  pointer-events: none;
+  background: rgba(255, 68, 0, 0.221);
+  mix-blend-mode:difference;
+}
+
+
+
+
+
+.dot::before {
+  opacity: 0;
+  content: "View";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 35%;
+  left: 28%;
+  display: block;
+  font-size: 4px;
+  color: white;
+  z-index: 200;
+}
+
+.dot.hovered {
+  opacity: 1;
+  transform: scale(5);
+}
+
+.dot.hovered::before {
+  opacity: 1;
+}
