@@ -6,13 +6,13 @@ import WorkChalange from "../components/WorkChalange";
 import Gallery from "../components/Gallery";
 import Ebike from "../assets/ebike.webp";
 import Workout from "../assets/workout-prev.webp";
-import PlaywellMain from "../assets/playwell-main.webp";
-import PlaywellCourses from "../assets/playwell-kurs.webp";
-import PlaywellPricing from "../assets/playwell-pricing.webp";
-import PlaywellTeam from "../assets/playwell-team.webp";
-import PlaywellCalendar from "../assets/playwell-calendar.webp";
-import PlaywellAbonament from "../assets/playwell-abonament.webp";
-import PlaywellStripe from "../assets/playwell-stripe.webp";
+import PlaywellMain from "../assets/playwellmain.webp";
+import PlaywellCourses from "../assets/playwellkurs.webp";
+import PlaywellPricing from "../assets/playwellpricing.webp";
+import PlaywellTeam from "../assets/playwellteam.webp";
+import PlaywellCalendar from "../assets/playwellcalendar.webp";
+import PlaywellAbonament from "../assets/playwellabonament.webp";
+import PlaywellStripe from "../assets/playwellstripe.webp";
 
 const images = [Hero,PlaywellMain,PlaywellCourses,PlaywellPricing,PlaywellTeam,PlaywellCalendar,PlaywellAbonament,PlaywellStripe]
 
