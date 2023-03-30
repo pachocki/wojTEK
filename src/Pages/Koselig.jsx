@@ -1,29 +1,27 @@
 import React from "react";
 import Hero from "../assets/koseliglaptop.webp";
 import HeroWork from "../components/HeroWork";
-
 import WorkChalange from "../components/WorkChalange";
 import Gallery from "../components/Gallery";
 import Ebike from "../assets/ebike.webp";
 import Workout from "../assets/workout-prev.webp";
 import KoseligPc from "../assets/koseligmonitor.webp";
 import KoseligAccomodation from "../assets/koseligaddmode.webp";
-import KoseligPreview from "../assets/koseligpreview.webp";
+import KoseligPreview from "../assets/koseligimages.webp";
 import KoseligDestinations from "../assets/koseligdestinations.webp";
 import KoseligDescription from "../assets/koseligdescription.webp";
 import KoseligGallery from "../assets/koseliggallery.webp";
 import KoseligLogin from "../assets/koseliglogin.webp";
 
-
 const images = [
-    Hero,
+  Hero,
   KoseligPc,
   KoseligPreview,
-  KoseligAccomodation ,
+  KoseligAccomodation,
   KoseligDestinations,
   KoseligDescription,
   KoseligGallery,
-  KoseligLogin ,
+  KoseligLogin,
 ];
 
 const Koselig = () => {
