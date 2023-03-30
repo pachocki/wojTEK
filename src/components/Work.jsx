@@ -59,10 +59,9 @@ const Work = () => {
     };
   }, []);
   return (
-    <div className="relative h-full">
+    <div className="relative h-full w-full">
       <SectionTitle title="Jump to my Work" />
-      <div className="bg-white/20 relative 3xl:h-[180vh] h-[260vh] xl:h-[220vh] sm:h-[370vh] xs:h-[340vh]">
-        <div className="section --mask min-h-screen z-20">
+      <div className="section --mask min-h-screen z-20 absolute top-18 w-full">
           <svg
             id="svg-mask"
             width="100%"
@@ -93,7 +92,9 @@ const Work = () => {
             </g>
           </svg>
         </div>
-        <div className="absolute top-48 text-black w-full">
+    
+       
+        <div className="bg-white/20 text-black w-full h-full py-40 ">
           <div className="project relative grid grid-cols-2 w-[90%] h-full mx-auto gap-2 lg:w-[95%] md:w-[98%] md:px-2 sm:grid-cols-1  sm:gap-4 ">
             <div className="flex gap-2 flex-col sm:gap-4">
               <WorkCard image={Playwell} title="Playwell" link="/Playwell">
@@ -130,7 +131,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-      </div>
+    
     </div>
   );
 };
