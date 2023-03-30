@@ -1,7 +1,6 @@
 import React from "react";
-import Hero from "../assets/";
+import Hero from "../assets/workoutonmonitor.webp";
 import HeroWork from "../components/HeroWork";
-
 import WorkChalange from "../components/WorkChalange";
 import Gallery from "../components/Gallery";
 import Ebike from "../assets/ebike.webp";
