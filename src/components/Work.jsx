@@ -94,7 +94,7 @@ const Work = () => {
         </div>
     
        
-        <div className="bg-white/20 text-black w-full h-full py-40 ">
+        <div className="bg-white/20 text-black w-full h-full py-40 sm:pb-20">
           <div className="project relative grid grid-cols-2 w-[90%] h-full mx-auto gap-2 lg:w-[95%] md:w-[98%] md:px-2 sm:grid-cols-1  sm:gap-4 ">
             <div className="flex gap-2 flex-col sm:gap-4">
               <WorkCard image={Playwell} title="Playwell" link="/Playwell">

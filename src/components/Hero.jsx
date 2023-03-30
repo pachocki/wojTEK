@@ -38,8 +38,8 @@ const Hero = () => {
     };
   }, []);
   return (
-    <div className="pt-24  h-screen text-white hero__container  mx-auto ">
-      <div className="w-[98%] mx-auto sm:w-full sm:px-2">
+    <div className="  h-screen text-white hero__container  mx-auto ">
+      <div className="w-[98%] mx-auto sm:w-full sm:px-2 pt-24 pb-10 sm:pt-20  ">
         <div className="h-[63vh] bg-gradient-hero overflow-hidden relative rounded-xl 3xl:h-[77vh] md:h-[67vh] sm:h-[73vh] xs:h-[74vh]">
           <Shapes />
         </div>
