@@ -6,7 +6,7 @@ import WorkChalange from "../components/WorkChalange";
 import Gallery from "../components/Gallery";
 import Ebike from "../assets/ebike.webp";
 import Workout from "../assets/workout-prev.webp";
-import KoseligPc from "../assets/koselig-monitor.webp";
+import KoseligPc from "../assets/koseligmonitor.webp";
 import KoseligAccomodation from "../assets/koseligadd.webp";
 import KoseligPreview from "../assets/Koseligpreview.webp";
 import KoseligDestinations from "../assets/koseligdestinations.webp";
