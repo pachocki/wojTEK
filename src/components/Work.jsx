@@ -38,7 +38,7 @@ const Work = () => {
 
           start: () => {
             if (window.matchMedia("(max-width: 640px)").matches) {
-              return "top -=2%";
+              return "top top";
             } else if (window.matchMedia("(max-width: 770px)").matches) {
               return "top +=2%";
             } else if (window.matchMedia("(max-width: 1024px)").matches) {
@@ -74,7 +74,7 @@ const Work = () => {
   return (
     <div className="relative h-full">
       <SectionTitle title="Jump to my Work" />
-      <div className="bg-white/20 relative 3xl:h-[180vh] h-[260vh] xl:h-[220vh] sm:h-[340vh] xs:h-[360vh]">
+      <div className="bg-white/20 relative 3xl:h-[180vh] h-[260vh] xl:h-[220vh] sm:h-[360vh]">
         <div className="section --mask min-h-screen z-20">
           <svg
             id="svg-mask"
