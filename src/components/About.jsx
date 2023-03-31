@@ -55,7 +55,7 @@ const About = () => {
         className="flex justify-between  relative w-[95%] mx-auto  pt-20   xl:w-[98%] sm:grid sm:grid-cols-1 sm:h-full sm:w-full md:pt-10"
         ref={about}
       >
-        <div className="flex flex-col   bg-teal-400 rounded-l-xl w-[45%] sm:w-full sm:rounded-t-xl sm:rounded-b-none">
+        <div className="flex flex-col   bg-teal-600 rounded-l-xl w-[45%] sm:w-full sm:rounded-t-xl sm:rounded-b-none">
           <div className="flex justify-between items-center  text-black px-5 pt-2 pb-5 sm:pb-1 ">
             <div>
               <span className="text-4xl sm:hidden ">┑</span>
