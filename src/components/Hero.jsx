@@ -39,8 +39,8 @@ const Hero = () => {
   }, []);
   return (
     <div className="  h-screen text-white hero__container  mx-auto ">
-      <div className="w-[98%] mx-auto sm:w-full pt-24 pb-10 sm:px-2  sm:pt-20 sm:pb-12  ">
-        <div className="h-[63vh] bg-gradient-hero overflow-hidden relative rounded-xl 3xl:h-[77vh] md:h-[67vh] sm:h-[73vh] xs:h-[74vh]">
+      <div className="flex flex-col w-[98%] h-full mx-auto sm:w-full pt-24  sm:px-2  sm:pt-20   ">
+        <div className="h-full w-full bg-gradient-hero overflow-hidden relative rounded-xl ">
           <Shapes />
         </div>
         <div className="flex justify-between bg-zinc-900/90 mt-2 gap-0  border border-gray-100 rounded-xl pb-1 px-4 lg:px-2  sm:gap-1 sm:px-1">

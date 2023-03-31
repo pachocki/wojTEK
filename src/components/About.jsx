@@ -62,7 +62,7 @@ const About = () => {
               <span className=" "> ⊕</span>
             </div>
 
-            <span className="text-2xl ">┿</span>
+            <span className="text-2xl sm:text-sm">┿</span>
             <div>
               <span className=" "> ⊕</span>
               <span className="text-4xl sm:hidden ">┍</span>
@@ -70,7 +70,7 @@ const About = () => {
           </div>
           <div className=" flex h-full justify-between items-center text-black">
             <div className="px-2 lg:hidden">
-              <span className="text-2xl ">┿</span>
+              <span className="text-2xl sm:text-sm">┿</span>
             </div>
             <div className="">
               <img
@@ -89,7 +89,7 @@ const About = () => {
               <span className=" "> ⊕</span>
             </div>
 
-            <span className="text-2xl ">┿</span>
+            <span className="text-2xl sm:text-sm ">┿</span>
             <div>
               <span className=" "> ⊕</span>
               <span className="text-4xl sm:hidden ">┍</span>

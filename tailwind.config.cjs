@@ -21,7 +21,7 @@ module.exports = {
     },
     backgroundImage: {
       'gradient-hero': 'linear-gradient(142.4deg, rgb(139, 98, 208) 5%, rgb(126, 124, 223) 28.2%, rgb(109, 207, 236) 62.5%, rgb(176, 239, 244) 89.1%);',
-      "paper": "url('./src/assets/blackpaper.png')",
+      "paper": "url('../src/assets/blackpaper.png')",
     },
   },
   plugins: [

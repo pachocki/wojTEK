@@ -30,7 +30,7 @@ const Archtek = () => {
       />
       <WorkChalange
         chalange="The main challenge in this project was to create a blog that is user-friendly and visually appealing.
-        Our goal was to ensure that visitors to the blog could easily navigate and find the information they were looking for.
+        My goal was to ensure that visitors to the blog could easily navigate and find the information they were looking for.
         We wanted to create a design that would engage readers and encourage them to explore the content further.
         It was important to strike a balance between functionality and aesthetics, to create a blog that was both practical and visually stunning.
         Through careful planning and attention to detail, we were able to successfully meet this challenge and create a blog that is both easy to use and visually appealing."
@@ -39,8 +39,7 @@ const Archtek = () => {
         One of the key goals was to enable the uploading of images into the database and associating them with relevant data.
         I wanted to ensure that the backend was scalable and could handle large amounts of data efficiently.
         Alongside this, we aimed to connect the backend with the frontend of the web application.
-        My objective was to create a seamless flow of information between the two, enabling the frontend to display the data in an appealing and user-friendly way.
-        Through rigorous testing and debugging, we were able to achieve our goal and develop a fully functional web application that meets our expectations."
+        My objective was to create a seamless flow of information between the two, enabling the frontend to display the data in an appealing and user-friendly way."
         solution="In this project, we utilized React.js for the front-end development and Node.js as the back-end framework. To store and manage the data, we integrated MongoDB as our database. With the help of React.js, we were able to develop a dynamic and interactive user interface that provided a seamless user experience. Node.js enabled us to create a powerful and scalable back-end structure that could handle complex operations and user requests efficiently. By incorporating MongoDB, we were able to store and retrieve data seamlessly, ensuring that the application remained responsive and fast. Overall, this technology stack allowed us to build a high-quality and functional web application that meets the needs of our users."
       />
       <Gallery
