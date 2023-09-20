@@ -9,7 +9,7 @@ import MokoshHero from "../assets/mokoshhero.png";
 import MokoshProduct from "../assets/mokoshproduct.png";
 import MokoshBlog from "../assets/mokoshblog.png";
 import MokoshShop from "../assets/mokoshshop.png";
-import MokoshDetails from "../assets/MokoshDetails.png";
+import MokoshDetails from "../assets/mokoshdetails.png";
 import MokoshRelated from "../assets/mokoshrelated.png";
 import MokoshSummary from "../assets/mokoshsummary.png";
 
