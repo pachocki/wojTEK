@@ -11,7 +11,11 @@ import Modern from "../assets/modern.png";
 import Inspace from "../assets/inspace.png";
 import Batman from "../assets/batman.png";
 import Hardanger from "../assets/hardanger.png";
-
+import Mokosh from "../assets/mokosh.png";
+import Dashboard from "../assets/dashboard.png";
+import Hygge from "../assets/hygge.png";
+import Admin from "../assets/gadgetdashboard.png";
+import Gadgethub from "../assets/gadgetshop.png";
 const Work = () => {
   const textRef = useRef(null);
 
@@ -48,11 +52,20 @@ const Work = () => {
       <div>
         <div className="relative grid grid-cols-2 gap-2  md:px-2 sm:grid-cols-1  sm:gap-4 ">
           <div className="flex gap-2 flex-col sm:gap-4">
-            <WorkCard image={Playwell} title="Playwell" link="/Playwell">
+            <WorkCard image={Mokosh} title="Mokosh" link="/mokosh">
+              <p className="3xl:text-3xl">Next js</p>
+              <p className="3xl:text-3xl">Typescript</p>
+            </WorkCard>
+            <WorkCard image={Hygge} title="Hygge" link="/hygge">
+              <p className="3xl:text-3xl">Next js</p>
+              <p className="3xl:text-3xl">Typescript</p>
+            </WorkCard>
+
+            <WorkCard image={Playwell} title="Playwell" link="/playwell">
               <p className="3xl:text-3xl">React Js</p>
               <p className="3xl:text-3xl">Node Js</p>
             </WorkCard>
-            <WorkCard image={Ding} title="Ding-Dong" link="/DingDong">
+            <WorkCard image={Ding} title="Ding-Dong" link="/dingDong">
               <p className="3xl:text-3xl">Next Js</p>
               <p className="3xl:text-3xl">Node Js</p>
             </WorkCard>
@@ -60,13 +73,7 @@ const Work = () => {
               <p className="3xl:text-3xl">React Js</p>
               <p className="3xl:text-3xl">Node Js</p>
             </WorkCard>
-            <WorkCard
-              image={Modern}
-              title="Modern"
-              link="https://pachocki.github.io/ModerN/"
-            >
-              <p className="3xl:text-3xl">React Js</p>
-            </WorkCard>
+          
             <WorkCard
               image={Inspace}
               title="Inspace"
@@ -76,6 +83,16 @@ const Work = () => {
             </WorkCard>
           </div>
           <div className="flex gap-2 flex-col sm:gap-4">
+            <WorkCard image={Gadgethub} title="Gadgethub" link="/gadgethub">
+              <p className="3xl:text-3xl">Next js</p>
+            </WorkCard>
+            <WorkCard image={Dashboard} title="Dashboard" link="/dashboard">
+              <p className="3xl:text-3xl">Next js</p>
+              <p className="3xl:text-3xl">Typescript</p>
+            </WorkCard>
+            <WorkCard image={Admin} title="Sending" link="/sending">
+              <p className="3xl:text-3xl">Next js</p>
+            </WorkCard>
             <WorkCard
               image={Koselig}
               title="Koselig"
@@ -93,15 +110,7 @@ const Work = () => {
               <p className="3xl:text-3xl">React Js</p>
               <p className="3xl:text-3xl">Redux</p>
             </WorkCard>
-            <WorkCard
-              image={Hardanger}
-              title="Hardanger"
-              link="https://pachocki.github.io/Hardanger/"
-            >
-              <p className="3xl:text-3xl">Html</p>
-              <p className="3xl:text-3xl">Css</p>
-              <p className="3xl:text-3xl">Javascript</p>
-            </WorkCard>
+           
             <WorkCard
               image={Batman}
               title="Batman"
