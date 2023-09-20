@@ -8,7 +8,7 @@ import Mokosh from "../assets/mokoshhero.png";
 import DashboardPc from "../assets/dashboard.png";
 import DashboardMain from "../assets/dashboardmain.png";
 import DashboardOrders from "../assets/dashbaordorders.png";
-import DashboardSizes from "../assets/dashboardSizes.png";
+import DashboardSizes from "../assets/dashboardsizes.png";
 import DashboardCategories from "../assets/dashbaordcategories.png";
 import DashboardBillboards from "../assets/dashboardbillboards.png";
 import DashbaordLight from "../assets/dashboardlight.png";
