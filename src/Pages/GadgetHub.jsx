@@ -5,7 +5,7 @@ import Gallery from "../components/Gallery";
 import Dashboard from "../assets/dashboardgadget.png";
 import Mokosh from "../assets/mokoshhero.png";
 import GadgethubPc from "../assets/gadgetshop.png";
-import GadgethubHero from "../assets/gadgethubhero.png";
+
 import GadgethubCategories from "../assets/gadgethubcategories.png";
 import GadgethubProducts from "../assets/gadgethubproducts.png";
 import GadgethubProduct from "../assets/gadgethubproduct.png";
