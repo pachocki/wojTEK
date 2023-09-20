@@ -43,7 +43,7 @@ const GadgetHub = () => {
       <Gallery
         images={images}
         prev="Dashboard"
-        linkPrev="/admin"
+        linkPrev="/dashboard"
         imagePrev={Dashboard}
         next="Mokosh"
         linkNext="/mokosh"

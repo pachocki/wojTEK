@@ -44,12 +44,12 @@ const Mokosh = () => {
       <Gallery
         images={images}
         prev="Dashboard"
-        linkPrev="/admin"
+        linkPrev="/dashboard"
         imagePrev={Dashboard}
         next="Hygge"
         linkNext="/hygge"
         imageNext={Hygge}
-        live=""
+        live="https://mokosh.vercel.app/"
       />
     </div>
   );

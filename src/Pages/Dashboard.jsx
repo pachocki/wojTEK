@@ -52,7 +52,7 @@ const Dashboard = () => {
         next="Mokosh"
         linkNext="/mokosh"
         imageNext={Mokosh}
-        live="https://gadget-hub-api.vercel.app/"
+        live="https://ecommerce-dashboard-zeta.vercel.app"
       />
     </div>
   );

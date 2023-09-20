@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { Link } from "react-router-dom";
 import { MouseContext } from "../context/MouseContext";
-
+import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 const Gallery = ({
   images,
   imagePrev,
@@ -112,7 +112,10 @@ const Gallery = ({
         </a>
       </div>
       <div className="flex justify-between pt-20 items-center text-xl 3xl:text-5xl sm:pb-10 md:text-lg sm:pt-5 ">
-        <Link to={linkPrev} className="cursor-none transition-all hover:opacity-50">
+        <Link
+          to={linkPrev}
+          className="cursor-none transition-all hover:opacity-50"
+        >
           {" "}
           <div className="flex gap-2 items-center 3xl:gap-5 ">
             <img
@@ -127,10 +130,16 @@ const Gallery = ({
           </div>
         </Link>
 
-        <Link to="/work" className="cursor-none transition-all hover:opacity-50">
+        <Link
+          to="/work"
+          className="cursor-none transition-all hover:opacity-50"
+        >
           <div>Back</div>
         </Link>
-        <Link to={linkNext} className="cursor-none transition-all  hover:opacity-50">
+        <Link
+          to={linkNext}
+          className="cursor-none transition-all  hover:opacity-50"
+        >
           {" "}
           <div className="flex gap-2 items-center 3xl:gap-5  3xl:text-5xl ">
             <div className="flex flex-col">
@@ -159,9 +168,9 @@ const Gallery = ({
           </button>
           <button
             onClick={showPrev}
-            className="w-[50px] h-[50px] bg-orange-600 rounded-full sm:bg-transparent "
+            className="w-[50px] h-[50px] flex justify-center items-center bg-orange-600 rounded-full sm:bg-transparent "
           >
-            ⭠
+            <BsArrowLeft />
           </button>
           <img
             id="lightbox-img"
@@ -170,9 +179,9 @@ const Gallery = ({
           ></img>
           <button
             onClick={showNext}
-            className="w-[50px] h-[50px] bg-orange-600 rounded-full sm:bg-transparent cursor-none"
+            className="w-[50px] h-[50px] flex justify-center items-center bg-orange-600 rounded-full sm:bg-transparent cursor-none"
           >
-            ⭢
+            <BsArrowRight />
           </button>
         </div>
       ) : (
