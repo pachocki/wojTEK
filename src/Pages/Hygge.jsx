@@ -49,7 +49,7 @@ const Hygge = () => {
         next="Mokosh"
         linkNext="/mokosh"
         imageNext={Mokosh}
-        live=""
+        live="https://hygge-eight.vercel.app/"
       />
     </div>
   );
