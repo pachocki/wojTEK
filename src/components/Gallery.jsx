@@ -44,7 +44,7 @@ const Gallery = ({
   //looping through our images array to create img elements
   const imageCards = images.map((image) => (
     <img
-      className=" w-full h-full "
+      className=" w-full 2xl:h-[40vh] xl:h-full object-fit "
       onClick={() => showImage(image)}
       src={image}
       key={image}
